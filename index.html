@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Para la mujer más bella del mundo 🤍</title>
+<button onclick="mostrarCarta()" class="boton">
+    💌 Haz clic aquí 💌
+</button>
+
+<div id="carta" class="carta">
+    <h2>Para ti, mi color favorito 🤍</h2>
+
+    <p>
+        Desde que llegaste a mi vida, todo se volvió un poco más bonito.
+        Tu sonrisa ilumina mis días y tu compañía convierte los momentos
+        simples en recuerdos cálidos.
+    </p>
+
+    <p>
+        Quería regalarte algo diferente, algo hecho por mí, porque te mereces
+        todo el cariño que puedo darte.
+    </p>
+
+    <p>
+        Gracias por ser mi novia, amor, por acompañarme y por ser la mujer más bella
+        del mundo. 🤍
+    </p>
+
+    <p>
+        Te amo muchísimo. 🤍
+    </p>
+</div>
+
+<script>
+function mostrarCarta() {
+    const carta = document.getElementById("carta");
+
+    if (carta.style.display === "block") {
+        carta.style.display = "none";
+    } else {
+        carta.style.display = "block";
+    }
+}
+</script>
+<style>
+
+body{
+    margin:0;
+    padding:20px;
+    background:linear-gradient(to bottom,#ffe6f0,#ffffff);
+    font-family:Arial,sans-serif;
+    text-align:center;
+}
+
+h1{
+    color:#d63384;
+    font-size:2.5rem;
+    margin-bottom:30px;
+}
+
+.dibujo{
+    width:90%;
+    max-width:500px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+    margin-bottom:30px;
+}
+.boton{
+    background:#d63384;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:30px;
+    font-size:1.1rem;
+    cursor:pointer;
+    margin:20px;
+}
+
+.boton:hover{
+    transform:scale(1.05);
+}
+
+.carta{
+    display:none;
+    max-width:700px;
+    margin:20px auto;
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+    animation:aparecer 0.8s ease;
+}
+
+@keyframes aparecer{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+.mensaje{
+    max-width:700px;
+    margin:auto;
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 0 15px rgba(0,0,0,0.1);
+    font-size:1.2rem;
+    line-height:1.8;
+    color:#444;
+}
+
+footer{
+    margin-top:30px;
+    color:#888;
+    font-size:1rem;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>🤍 La mujer más bella del mundo 🤍</h1>
+
+<img src="dibujo.png" alt="Dibujo para mi novia" class="dibujo">
+
+<div class="mensaje">
+
+<p>
+Hay muchas cosas que podría decir sobre ti,
+pero ninguna palabra alcanza para describir
+lo especial que eres para mí.
+</p>
+
+<p>
+Tus chistes alegran mis días, tus dibujos me
+inspiran todony cada momento contigo se
+convierte en un recuerdo que quiero guardar
+para siempre.
+</p>
+
+<p>
+Este dibujo está hecho con cariño, pensando en ti
+desde el primer trazo hasta el último detalle.
+</p>
+
+<p>
+Gracias por ser parte de mi vida. 🤍
+</p>
+
+</div>
+
+<footer>
+Con cariño, Mister Demi 🤍
+</footer>
+
+</body>
+</html>
